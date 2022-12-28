@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 Input.propTypes = {
     type: PropTypes.oneOf(["text", "email", "password", "number", "file"]),
-    name: propTypes.string,
+    name: PropTypes.string,
     value: PropTypes.oneOf([PropTypes.string, PropTypes.number]),
     defaultValue: PropTypes.oneOf([PropTypes.string, PropTypes.number]),
     className: PropTypes.string,
